@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: aquamarine;
+            background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+            height: 100vh;
+            width: 100vw;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            height: 600px;
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
+
+
+               
+       }
+        .card img{
+            height: 200px;
+            width: 400px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            object-position: top;
+            
+        }
+        .card h2{
+           
+            
+        }
+        .card p{
+            font-size: 1.2rem;
+            
+        }
+        .card button{
+            background-color: blue;
+            color: white;
+           min-height:8.5%;
+           min-width:85%;
+           border-radius: 10px;
+           box-shadow: 10px;
+           
+
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="Card2Photo.jpg">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum dolor sit amet qui voluptas deleniti minima! Ea odio doloribus, beatae officia voluptate quidem, magni dicta consequuntur eum libero neque id corrupti?</p>
+            <div></div>
+            <button>Proceed to Payment</button>
+            <div><a href="#">Cancel Order</a></div>
+            
+        </div>
+        
+       
+    </div>
+    
+</body>
+</html>
